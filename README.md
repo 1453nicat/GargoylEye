@@ -1,4 +1,4 @@
-# 🦇 | GargoylEye
+# 🦇 | GargoylEye | [Google Colab](https://colab.research.google.com/drive/1xDL6gSBJTmSdasms_cD03AahGRnNICmI?usp=sharing)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8x-Ultralytics-gold?style=flat-square)
