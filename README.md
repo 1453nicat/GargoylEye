@@ -14,6 +14,7 @@
 
 The system combines two state-of-the-art models: **YOLOv8x** (trained on the COCO dataset) handles real-time object detection, identifying animals while completely ignoring any humans in the frame. The detected animal is then cropped and passed to a **Stable Diffusion ControlNet** pipeline, which extracts the animal's structural edge map via Canny edge detection and uses it as a spatial guide during image generation. This ensures the animal's shape and pose are preserved while the surrounding scene is fully reimagined based on a user-defined text prompt.
 
+You can also check out [GargoylEye's website](https://gargoyleye.lovable.app/) in order to experience it live.
 ---
 
 ## Features
