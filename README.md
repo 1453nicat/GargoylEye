@@ -99,7 +99,7 @@ Stable Diffusion's attention mechanism weighs earlier tokens more heavily. Gargo
 | Max images per run | 4 |
 
 **Example prompt that work well:**
-- `a noble cat portrait in the style of Renaissance oil painting, sitting in a regal pose, ornate gilded frame, dramatic chiaroscuro lighting, rich velvet robes, Italian Renaissance background with classical columns and drapes, masterpiece, museum quality`
+- `a noble [animal] portrait in the style of Renaissance oil painting, sitting in a regal pose, ornate gilded frame, dramatic chiaroscuro lighting, rich velvet robes, Italian Renaissance background with classical columns and drapes, masterpiece, museum quality`
 
 ---
 
@@ -121,7 +121,7 @@ torch
 
 ## Limitations
 
-- COCO's 10 animal classes do not include donkeys, foxes, wolves or exotic species — these get mapped to the nearest class (e.g. donkeys → `horse`)
+- COCO's 10 animal classes do not include donkeys, foxes, wolves or exotic species - these get mapped to the nearest class (e.g. donkeys → `horse`)
 - Very small animals in crowded scenes may be missed even at 1280px resolution
 - ControlNet preserves shape but cannot recover detail from low-resolution crops smaller than 80×80px
 - Generation quality depends heavily on prompt specificity — vague prompts produce generic results
